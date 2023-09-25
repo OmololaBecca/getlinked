@@ -1,0 +1,136 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+
+
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Montserrat," sans-serif;
+}
+
+.parent-container{
+    background-color: #150E28;
+}
+.hero-page{
+    padding-top:50px;
+    padding-bottom: 20px;
+    background-color: #150E28;
+    font-family: "Montserrat";
+}
+.first-component-flex{
+    display:flex; 
+    gap:30px;   
+    /* align-items: center;
+    justify-content: center;
+     */
+}
+.get-linked-logo{
+    width:150px;
+    object-fit: contain;
+    /* margin-right: 200px; */
+    margin-left: 180px;
+    
+}
+.first-component-nav{
+    display:flex;
+    gap:50px;
+    margin-left: 350px;
+    margin-top: 10px;
+    
+    
+}
+.first-component-nav nav{
+    color:#ffff;
+    font-size: 20px;
+}
+.first-component-button {
+    width: 130px;
+    height:40px;
+    border-radius: 4px;
+    border:none;
+    color:#ffff;
+    margin-left: 100px;
+    background-image:linear-gradient(to right , #FF26B9,#903AFF);
+}
+hr{
+    border: solid 1px grey;
+    margin-top: 20px; 
+}
+
+.star-innovation-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:300px;   
+    margin-top: 20px;
+}
+.first-star{
+    margin-right:240px;
+    object-fit: contain;
+    width:20px;
+}
+.innovation-stroke-div{
+    position:relative;  
+}
+
+.innovation-tag{
+    font-size: 28px;
+    font-family: 700;
+    color:#ffff;
+    margin-right: 10px;   
+    font-family: "Montserrat",sans-serif;
+}
+
+.curved-stroke{
+    position: absolute;
+     top:60px;
+     margin-left: 230px;
+     width:270px;
+}
+.second-component-flex{
+    margin-top:90px;
+    margin-left: 190px;
+    display:flex;
+    font-family: "Montserrat",sans-serif;
+}
+
+.getlinked-div{
+    margin-top: 40px;
+}
+.getlinked-div img{
+    width:450px;
+}
+.second-component-flex p{
+    font-size: 18px;
+    color:#ffff;
+}
+.second-component-button {
+    width: 130px;
+    height:40px;
+    border-radius: 4px;
+    border:none;
+    color:#ffff;
+    background-image:linear-gradient(to right , #FF26B9,#903AFF);
+    margin-top:27px;
+}
+
+.vr-man-div{
+    position: relative;
+}
+.multiple-star-image{
+   position:absolute;
+   top:30px;
+   left:29px;
+}
+.vr-man{
+    width:710px;
+}
+.countdown-div{
+    display:flex;
+    gap:20px;
+    margin-top: 30px;
+}
+.countdown-div p{
+font-size:40px;
+}

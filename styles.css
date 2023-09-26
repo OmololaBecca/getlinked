@@ -35,7 +35,7 @@ body{
 .first-component-nav{
     display:flex;
     gap:50px;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 10px;
     
     
@@ -50,7 +50,7 @@ body{
     border-radius: 4px;
     border:none;
     color:#ffff;
-    margin-left: 100px;
+    margin-left: 80px;
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
 }
 hr{
@@ -63,10 +63,10 @@ hr{
     align-items: center;
     justify-content: center;
     gap:300px;   
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .first-star{
-    margin-right:240px;
+    margin-right:170px;
     object-fit: contain;
     width:20px;
 }
@@ -76,20 +76,20 @@ hr{
 
 .innovation-tag{
     font-size: 28px;
-    font-family: 700;
+    font-weight: 700;
     color:#ffff;
-    margin-right: 10px;   
+    margin-right: -130px;   
     font-family: "Montserrat",sans-serif;
 }
 
 .curved-stroke{
     position: absolute;
      top:60px;
-     margin-left: 230px;
-     width:270px;
+     margin-left: 330px;
+     width:250px;
 }
 .second-component-flex{
-    margin-top:90px;
+    margin-top:40px;
     margin-left: 190px;
     display:flex;
     font-family: "Montserrat",sans-serif;
@@ -97,9 +97,10 @@ hr{
 
 .getlinked-div{
     margin-top: 40px;
+    position:relative;
 }
-.getlinked-div img{
-    width:450px;
+.getlinked-div-image{
+     width:490px; 
 }
 .second-component-flex p{
     font-size: 18px;
@@ -114,14 +115,27 @@ hr{
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
     margin-top:27px;
 }
+.first-grey-star{
+    width:20px;
+    position:absolute;
+    bottom:250px; 
+    right:90px;
+    
+}                         
 
 .vr-man-div{
     position: relative;
 }
+.second-grey-star{
+    width:20px;
+    position:absolute;
+    left:29px;   
+} 
+    
 .multiple-star-image{
    position:absolute;
    top:30px;
-   left:29px;
+   left:-39px;
 }
 .vr-man{
     width:710px;
@@ -133,4 +147,40 @@ hr{
 }
 .countdown-div p{
 font-size:40px;
+}
+.second-UI-div{
+    margin-top:60px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ gap:30px;
+}
+.big-idea-main-div{
+    position:relative;
+}
+.second-UI-purple-star{
+    position: absolute;
+    top:65px;
+    width:20px;
+    left:45px;
+}
+.big-idea-img{
+width:63%;
+margin-left:110px;
+}
+/* .second-UI-arrow{
+    top:20px;
+} */
+.introduction-text-div{
+    width:40%;
+    color: #ffff;
+    position: relative;
+}
+.purple-star-second-UI{
+position:absolute;
+right:15px;
+width:25px;
+}
+.introduction-text-div p{
+    margin-top: 15px;
 }

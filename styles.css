@@ -150,10 +150,11 @@ font-size:40px;
 }
 .second-UI-div{
     margin-top:60px;
- display:flex;
+ display:flex;     
  align-items: center;
  justify-content: center;
  gap:30px;
+ margin-bottom:70px;
 }
 .big-idea-main-div{
     position:relative;
@@ -172,7 +173,7 @@ margin-left:110px;
     top:20px;
 } */
 .introduction-text-div{
-    width:40%;
+    width:38%;
     color: #ffff;
     position: relative;
 }
@@ -184,3 +185,40 @@ width:25px;
 .introduction-text-div p{
     margin-top: 15px;
 }
+.rules-and-regulation-main-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+.rules-div{
+    margin-left:170px;
+    position: relative;
+    width:40%;
+}
+.rules-img{
+    width:40%;
+}
+.rules-div p{
+    margin-top: 30px;
+    color:#ffff;
+}
+.rules-first-star{
+    position:absolute;
+    left:320px;
+    width:20px;
+    top:-30px;
+}
+.rules-second-star{
+    position:absolute;
+    width:20px;
+    left:620px;
+    
+}
+.judging-citeria-div{
+    display:flex;
+    margin-top:130px;
+}
+/* .judging-citeria-first-div{
+
+} */

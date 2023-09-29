@@ -221,7 +221,7 @@ width:25px;
     align-items: center;
     justify-content: center;
     gap:50px;
-    margin-bottom: 30px;
+    margin-bottom: 130px;
    
 }
 
@@ -289,4 +289,42 @@ color:#ffff;
 background-image:linear-gradient(to right , #FF26B9,#903AFF);
 margin-top:27px;
 margin-top:35px;
+}
+.FAQ-div{
+    display:flex;
+    margin-left:150px;
+    margin-top: 80px;
+}
+
+.FAQ-text{
+    margin-top: 80px;
+    position:relative;
+    width:35%;
+}
+.FAQ-first-pu-star{
+    width:25px;
+    position:absolute;
+    top:-80px;
+    left:-35px;
+}
+
+.FAQ-text p{
+    color:white;
+}
+.text-collapse-div{
+    margin-top:30px;
+}
+.we-got-tag{
+    margin-top:30px;
+    margin-bottom:80px;
+}
+.FAQ-img-img{
+    position: relative;
+    width:40%;
+}
+.FAQ-main-asset{
+    width:700px;
+}
+.first-question-mark,.third-question-mark,.third-question-mark{
+
 }

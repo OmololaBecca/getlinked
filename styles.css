@@ -293,7 +293,7 @@ margin-top:35px;
 .FAQ-div{
     display:flex;
     margin-left:150px;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .FAQ-text{
@@ -318,13 +318,27 @@ margin-top:35px;
     margin-top:30px;
     margin-bottom:80px;
 }
-.FAQ-img-img{
-    position: relative;
-    width:40%;
+.FAQ-img-div{
+    width:50%;
+    position:relative;
 }
-.FAQ-main-asset{
-    width:700px;
-}
-.first-question-mark,.third-question-mark,.third-question-mark{
 
+ .first-question-mark{
+position:absolute;
+z-index: 99999;
+right:200px;
+top:-14px;
+} 
+ .second-question-mark{
+right:400px;
+position:absolute;
+top:-65px;
+z-index: 99999;
+width:55px;
+}
+.third-question-mark{
+    right:570px;
+    position:absolute;
+    top:-5px;
+z-index: 99999;
 }

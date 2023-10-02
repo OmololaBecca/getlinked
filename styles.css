@@ -294,12 +294,13 @@ margin-top:35px;
     display:flex;
     margin-left:150px;
     margin-top: 120px;
+    gap:50px;
 }
 
 .FAQ-text{
     margin-top: 80px;
     position:relative;
-    width:35%;
+    width:42%;
 }
 .FAQ-first-pu-star{
     width:25px;
@@ -314,6 +315,9 @@ margin-top:35px;
 .text-collapse-div{
     margin-top:30px;
 }
+.hidden-tag{
+    display:none;
+}
 .we-got-tag{
     margin-top:30px;
     margin-bottom:80px;
@@ -322,15 +326,17 @@ margin-top:35px;
     width:50%;
     position:relative;
 }
-
+.FAQ-main-asset{
+    width:630px;
+}
  .first-question-mark{
 position:absolute;
 z-index: 99999;
-right:220px;
-top:-14px;
+right:270px;
+top:-22px;
 } 
  .second-question-mark{
-right:400px;
+right:420px;
 position:absolute;
 top:-65px;
 z-index: 99999;
@@ -344,9 +350,9 @@ z-index: 99999;
 }
 .FAQ-first-star{
     position:absolute;
-    top:0px;
+    top:10px;
     width:20px;
-    right:300px;
+    right:330px;
 }
 .FAQ-second-star{
     position:absolute;
@@ -356,13 +362,41 @@ z-index: 99999;
 }
 .FAQ-third-star{
     position:absolute;
-    top:400px;
+    top:310px;
     width:20px;
-    right:600px;
+    right:610px;
 }
 .FAQ-fourth-star{
     position:absolute;
     bottom:0px;
     width:20px;
     right:100px;
+}
+.each-question-div{
+    border-bottom: 1px solid #FF26B9;
+    display:flex;
+    gap:20px;
+    width:540px;
+    
+}
+.fa{
+    margin-left:50px;
+}
+.first-plus{
+    margin-left: 5px;
+}
+.second-plus{
+    margin-left: 28px;
+}
+.third-plus{
+    margin-left: 48px;
+}
+.fourth-plus{
+    margin-left: 70px;
+}
+.fifth-plus{
+    margin-left: 125px;
+}
+.sixth-plus{
+    margin-left: 10px;
 }

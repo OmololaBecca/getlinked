@@ -373,7 +373,7 @@ z-index: 99999;
     right:100px;
 }
 .each-question-div{
-    border-bottom: 1px solid #FF26B9;
+    border-bottom: 1px solid #D434FE;
     display:flex;
     gap:20px;
     width:540px;
@@ -381,12 +381,13 @@ z-index: 99999;
 }
 .fa{
     margin-left:50px;
+    color:#D434FE;
 }
 .first-plus{
     margin-left: 5px;
 }
 .second-plus{
-    margin-left: 28px;
+    margin-left: 30px;
 }
 .third-plus{
     margin-left: 48px;

@@ -6,11 +6,12 @@
 body{
     margin:0;
     padding:0;
-    font-family: "Montserrat," sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .parent-container{
     background-color: #150E28;
+    overflow-x: hidden;
 }
 .hero-page{
     padding-top:50px;
@@ -29,18 +30,17 @@ body{
     width:150px;
     object-fit: contain;
     /* margin-right: 200px; */
-    margin-left: 180px;
+    margin-left: 150px;
 
 }
 .first-component-nav{
     display:flex;
     gap:50px;
-    margin-left: 300px;
+    margin-left: 270px;
     margin-top: 10px;
-
-
 }
-.first-component-nav nav{
+
+.first-component-nav > nav{
     color:#ffff;
     font-size: 20px;
 }
@@ -50,11 +50,11 @@ body{
     border-radius: 4px;
     border:none;
     color:#ffff;
-    margin-left: 80px;
+    margin-left: 70px;
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
 }
 hr{
-    border: solid 1px grey;
+    border: solid 0.2px rgb(97, 97, 97);
     margin-top: 20px;
 }
 
@@ -66,7 +66,7 @@ hr{
     margin-top: 15px;
 }
 .first-star{
-    margin-right:170px;
+    margin-right:172px;
     object-fit: contain;
     width:20px;
 }
@@ -78,8 +78,8 @@ hr{
     font-size: 28px;
     font-weight: 700;
     color:#ffff;
-    margin-right: -130px;
-    font-family: "Montserrat",sans-serif;
+    margin-right: -118px;
+   
 }
 
 .curved-stroke{
@@ -92,7 +92,7 @@ hr{
     margin-top:40px;
     margin-left: 190px;
     display:flex;
-    font-family: "Montserrat",sans-serif;
+    
 }
 
 .getlinked-div{
@@ -190,6 +190,7 @@ width:25px;
     align-items: center;
     justify-content: center;
     gap:40px;
+    
 }
 .rules-div{
     margin-left:170px;
@@ -400,4 +401,57 @@ z-index: 99999;
 }
 .sixth-plus{
     margin-left: 10px;
+}
+.timeline-parent-container{
+    margin-top:40px;
+   
+}
+.timeline-div{
+ text-align: center;
+}
+
+.timeline-text{
+    color: #ffff;
+    font-size: 30px;
+
+}
+.timeline-info-header{
+    color:#ffff;
+    font-size:20px;
+    font-family:'Montserrat';
+}
+.timeline-flex-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin-left: 80px;
+}
+.timeline-first-flex{
+    color:#ffff;
+    text-align: right;
+
+}
+.timeline-first-flex h3{
+    color:#903AFF;
+}
+.long-stroke{
+   outline:2px solid #903AFF;
+   width:90px;
+   rotate: 90deg;
+}
+.circle{
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    background-color: #D434FE;
+    color:#ffff;
+    text-align: center;
+    font-size: 22px;
+
+}
+.short-stroke{
+    outline:2px solid #903AFF;
+   width:50px;
+   rotate: 90deg;
 }

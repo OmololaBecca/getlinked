@@ -90,20 +90,20 @@ hr{
 }
 .second-component-flex{
     margin-top:40px;
-    margin-left: 190px;
-    display:flex;
-    
+    margin-left: 130px;
+    display:flex;  
 }
 
 .getlinked-div{
     margin-top: 40px;
     position:relative;
 }
+
 .getlinked-div-image{
      width:490px;
 }
 .second-component-flex p{
-    font-size: 18px;
+    font-size: 17px;
     color:#ffff;
 }
 .second-component-button {
@@ -426,32 +426,104 @@ z-index: 99999;
     justify-content: center;
     gap:30px;
     margin-left: 80px;
+    margin-top:100px;
 }
 .timeline-first-flex{
     color:#ffff;
     text-align: right;
+    margin-top: -30px !important;
 
 }
 .timeline-first-flex h3{
-    color:#903AFF;
+    color:#D434FE;
+}
+.timeline-second-flex{
+    margin-top:-460px;
+    position: relative;
 }
 .long-stroke{
-   outline:2px solid #903AFF;
-   width:90px;
-   rotate: 90deg;
+   border:2px solid #D434FE;
+   width:120px;
+   rotate: -90deg;
 }
 .circle{
     border-radius: 50%;
-    width:40px;
-    height:40px;
+    width:37px;
+    height:38px;
     background-color: #D434FE;
     color:#ffff;
     text-align: center;
     font-size: 22px;
+    position: absolute;
+    top:70px;
+    left:43px;
 
 }
 .short-stroke{
-    outline:2px solid #903AFF;
-   width:50px;
-   rotate: 90deg;
+    border:2px solid #D434FE;
+   width:60px;
+   rotate: -90deg;
+   position: absolute;
+   top:150px; 
+   left:27px;
+}
+.second-circle{
+   color:#ffff;
+   border-radius: 50%;
+   width:37px;
+   height:38px;
+   background-color: #D434FE;
+   text-align: center;
+   font-size: 22px;
+   position: absolute;
+    top:190px;
+    left:43px;
+}     
+.second-short-stroke{
+    border:2px solid #D434FE;
+    width:60px;
+    rotate: -90deg;
+    position: absolute;
+    top:270px; 
+    left:27px;
+}
+.third-circle{
+    color:#ffff;
+    border-radius: 50%;
+    width:37px;
+    height:38px;
+    background-color: #D434FE;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+     top:290px;
+     left:43px;
+}
+.third-short-stroke{
+    border:2px solid #D434FE;
+    width:60px;
+    rotate: -90deg;
+    position: absolute;
+    top:390px; 
+    left:27px;
+}
+.fourth-circle{
+    color:#ffff;
+    border-radius: 50%;
+    width:37px;
+    height:38px;
+    background-color: #D434FE;
+    text-align: center;
+    font-size: 22px;
+    position: absolute;
+     top:410px;
+     left:43px;
+}
+.timeline-third-div{
+color:#ffff;
+margin-top: 30px;
+margin-right: 30px;
+}
+.timeline-third-div h3{
+color:#D434FE;
 }

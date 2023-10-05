@@ -660,3 +660,51 @@ right:350px;
   top:300px;
   left:300px;
 }
+.prizes-rewards-container{
+margin-top:100px;
+}
+.prizes-rewards-main-div{
+display:flex;
+align-items: center;
+justify-content: center;
+gap:50px;
+}
+.prize-rewards-star-div{
+    margin-top:-120px;
+}
+.prize-rewards-header{
+    margin-left: 450px;
+    color:#ffff;
+    position: relative;
+}
+.rewards-first-star{
+    width:20px;
+}
+.rewards-second-star{
+    width:20px;
+    position: absolute;
+    left:350px;
+    bottom:30px;
+}
+
+.prize-rewards-header h3{
+    font-size:30px;
+}
+.prize-rewards-header span{
+    color:#D434FE;
+}
+.prize-rewards-flex{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+.PR-first-asset-div{
+    margin-left:50px;
+}
+.PR-first-asset{
+    width:400px;
+}
+.first-asset-star{
+    width:20px;
+}

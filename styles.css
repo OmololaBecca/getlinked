@@ -432,6 +432,7 @@ z-index: 99999;
 .timeline-first-flex{
     color:#ffff;
     text-align: right;
+    position:relative;
     /* margin-top: 0px !important; */
     animation:wheel-first-timeline 1.0s linear;
 }
@@ -607,6 +608,7 @@ z-index: 99999;
 color:#ffff;
 margin-right: 30px;
 animation:wheel-third-timeline 2s linear;
+position:relative
 }
 
 @keyframes wheel-third-timeline {
@@ -639,4 +641,22 @@ margin-top:80px;
 }
 .third-div-details-six{
 margin-top:75px;
+}
+.timeline-first-star{
+    width:19px;
+    position: absolute;
+    right:185px;
+    top:-50px;
+}
+.timeline-second-star{
+width:17px;
+position: absolute;
+bottom:45px;
+right:350px;
+}
+.timeline-third-star{
+    width:17px;
+    position: absolute;
+  top:300px;
+  left:300px;
 }

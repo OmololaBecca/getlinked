@@ -721,6 +721,19 @@ gap:50px;
 }
 .PR-second-asset-star1{
     position:absolute;
-    width:20px;
+    width:16px;
     left:105px;
+}
+.PR-second-asset-star2{
+    position:absolute;
+    width:16px;
+   bottom:300px;
+   left:570px;
+}
+.PR-second-asset-star3{
+    position:absolute;
+    width:16px;
+    top:400px;
+    right:170px;
+
 }

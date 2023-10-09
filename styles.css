@@ -662,6 +662,8 @@ right:350px;
 }
 .prizes-rewards-container{
 margin-top:100px;
+background-color:#0b051b !important;
+padding-bottom: 150px;
 }
 .prizes-rewards-main-div{
 display:flex;
@@ -735,5 +737,26 @@ gap:50px;
     width:16px;
     top:400px;
     right:170px;
+}
+.patnership-container{
+    position:relative;
+    margin-top:100px;
+}
+.first-purple-flare{
+    width:500px;
+    height:550px;
+    position: absolute;
+}
 
+.patnership-heading{
+    text-align:center;
+
+}
+.patnership-text{
+font-size: 28px;
+color:#ffff;
+}
+.patnership-subtext{
+    font-size:15px;
+    color:#ffff;
 }

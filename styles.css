@@ -796,16 +796,18 @@ color:#ffff;
 }
 .privacy-date-div{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
    
 }
-.privacy-date-div{
-    font-size: 25px;
+.privacy-date-div h3{
+    font-size: 28px;
   
 }
 .first-privacy-grey-star{
-    width:14px;
-    left:30px;
+    width:18px;
+    position: absolute;
+    left:300px;
+    top:-10px;
 }
 
 .privacy-date-div span{
@@ -813,4 +815,26 @@ color:#ffff;
 }
 .reduce-privacy-p{
     font-size: 12px;
+}
+.border-privacy-details{
+    border:1px solid #D434FE;
+    text-align: left;
+    font-size: 12px;
+    height:500px;
+    width:380px;
+    padding:40px;
+}
+.coloured-text{
+    color:#D434FE;
+    margin-top: 20px;
+}
+.list-term-flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.list-term-flex img{
+    width:10px;
+    height:10px;
 }

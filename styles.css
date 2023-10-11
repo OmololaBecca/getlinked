@@ -784,3 +784,33 @@ color:#ffff;
     bottom:100px;
     right:600px;
 }
+.privacy-container{
+    display:flex;
+    color:#fff;
+    align-items: center;
+    justify-content: center;
+}
+.privacy-details{
+    margin-left: 150px;
+    width:40%
+}
+.privacy-date-div{
+    position: relative;
+    margin-bottom: 30px;
+   
+}
+.privacy-date-div{
+    font-size: 25px;
+  
+}
+.first-privacy-grey-star{
+    width:14px;
+    left:30px;
+}
+
+.privacy-date-div span{
+    color:#903AFF;
+}
+.reduce-privacy-p{
+    font-size: 12px;
+}

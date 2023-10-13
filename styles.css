@@ -909,3 +909,60 @@ right:-20px;
         width:14px;
         right:290px;
     }
+    .footer-container{
+        background-color:#100B20;
+        padding-top:50px;
+        color:#ffff;   
+    }
+    .footer-flex{
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        gap:120px;
+    }
+    .footer-one{
+        position:relative;
+        font-size:14px;
+    }
+    .footer-one-star{
+        width:14px;
+        position:absolute;
+        left:-70px;
+        top:70px
+    }
+    .term-of-use-div{
+        display:flex;
+        gap:3px;
+        margin-top:80px;
+
+    }
+    .tou-border{
+        border-left:1px solid #D434FE;
+        rotate:180deg;
+        width:2px !important;    
+    }
+    .footer-two{
+        font-size:12px;
+    }
+    .sub-footer-two{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        gap:10px;
+        margin-top:30px;
+    }
+    .coloured-text-footer{
+        color:#D434FE;
+    }
+    .footer-three{
+        font-size: 12px;
+    }
+    .footer-three-flex{
+        display:flex;
+        justify-content: center;
+        gap:10px;
+    }
+    .footer-three-flex i{
+        color:#ffff;
+        margin-top: 10px;
+    }

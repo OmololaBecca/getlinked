@@ -912,7 +912,8 @@ right:-20px;
     .footer-container{
         background-color:#100B20;
         padding-top:50px;
-        color:#ffff;   
+        color:#ffff;  
+        margin-bottom:30px; 
     }
     .footer-flex{
         display:flex;
@@ -974,5 +975,5 @@ right:-20px;
         margin-top:18px;
     }
   .move-footer-flex{
-    margin-left:-15px;
+    margin-left:-18px;
   }

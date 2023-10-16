@@ -137,8 +137,9 @@ hr{
 
 .multiple-star-image{
    position:absolute;
-   top:30px;
+   top:20px;
    left:-39px;
+   width:600px;
 }
 .vr-man{
    width:710px; 
@@ -156,7 +157,7 @@ to{
 } 
 .countdown-div{
     display:flex;
-    gap:15px;
+    gap:30px;
     margin-top: 50px;
     position: relative;
 }
@@ -164,19 +165,19 @@ to{
 font-size:50px;
 font-family:Arial, Helvetica, sans-serif;
 }
-  .countdown-small-text1{
+ .countdown-small-text1{
     font-size:16px;
     position:absolute;
     color:#fff;
     top:70px;
-    left:27px;
+    left:30px;
 } 
  .countdown-small-text2{
     font-size:16px;
     position:absolute;
     color:#fff;
     top:70px;
-    left:120px;
+    left:113px;
 } 
 .countdown-small-text3{
     font-size:16px;
@@ -184,7 +185,7 @@ font-family:Arial, Helvetica, sans-serif;
     color:#fff;
     top:70px;
     left:200px;
-}  
+} 
 
 .second-UI-div{
     margin-top:60px;
@@ -244,14 +245,14 @@ width:25px;
 }
 .rules-first-star{
     position:absolute;
-    left:320px;
+    left:290px;
     width:20px;
     top:-30px;
 }
 .rules-second-star{
     position:absolute;
     width:20px;
-    left:620px;
+    left:460px;
 
 }
 .judging-citeria-div{

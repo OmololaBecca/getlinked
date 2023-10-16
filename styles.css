@@ -373,19 +373,19 @@ margin-top:35px;
  .first-question-mark{
 position:absolute;
 z-index: 99999;
-right:240px;
+right:220px;
 top:-22px;
 } 
 
  .second-question-mark{
-right:420px;
+right:365px;
 position:absolute;
 top:-65px;
 z-index: 99999;
 width:55px;
 }
 .third-question-mark{
-    right:560px;
+    right:510px;
     position:absolute;
     top:-5px;
 z-index: 99999;
@@ -400,11 +400,11 @@ z-index: 99999;
     position:absolute;
     top:150px;
     width:20px;
-    right:550px;
+    right:490px;
 }
 .FAQ-third-star{
     position:absolute;
-    top:310px;
+    top:340px;
     width:16px;
     right:520px;
 }

@@ -17,7 +17,7 @@ textCollapseDiv.addEventListener('click', e =>{
 
 
 // countdown logic
-var countDownDate = new Date("October 17, 2023 00:00:00").getTime();
+var countDownDate = new Date("December 05, 2023 00:00:00").getTime();
 console.log(countDownDate)
 
 var x = setInterval(function() { 

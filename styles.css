@@ -540,7 +540,7 @@ z-index: 99999;
     background-color: #D434FE;
     color:#ffff;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
     position: absolute;
     top:70px;
     left:43px;
@@ -832,6 +832,7 @@ color:#ffff;
     gap:200px;
     justify-content: center;
     position: relative;
+    margin-bottom:70px;
 }
 .privacy-details{
     width:30%;
@@ -955,7 +956,7 @@ right:-20px;
         background-color:#100B20;
         padding-top:50px;
         color:#ffff;  
-        margin-bottom:30px; 
+        padding-bottom:30px; 
     }
     .footer-flex{
         display:flex;
@@ -1015,6 +1016,10 @@ right:-20px;
         text-align:center;
         font-size:12px;
         margin-top:18px;
+        position:relative;
+    }
+    .right-reserved-star{
+        width:16px;
     }
   .move-footer-flex{
     margin-left:-18px;

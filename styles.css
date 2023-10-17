@@ -964,8 +964,14 @@ right:-20px;
         position: absolute;
         right:60px;
      bottom:120px;
-
     }
+    .grey-star-footer-container{
+        width:16px;
+        position: absolute;
+        left:80px;
+        bottom:120px;
+    }
+
     .footer-flex{
         display:flex;
         align-items: center;
@@ -976,26 +982,31 @@ right:-20px;
         position:relative;
         font-size:14px;
     }
+
     .footer-one-star{
         width:14px;
         position:absolute;
         left:-70px;
         top:70px
     }
+
     .term-of-use-div{
         display:flex;
         gap:3px;
         margin-top:80px;
-
     }
+
     .tou-border{
         border-left:1px solid #D434FE;
         rotate:180deg;
         width:2px !important;    
     }
+
     .footer-two{
         font-size:12px;
+        position:relative;
     }
+
     .sub-footer-two{
         display:flex;
         justify-content:center;
@@ -1003,9 +1014,11 @@ right:-20px;
         gap:10px;
         margin-top:30px;
     }
+
     .coloured-text-footer{
         color:#D434FE;
     }
+
     .footer-three{
         font-size: 12px;
         margin-top:-32px;
@@ -1017,10 +1030,12 @@ right:-20px;
         margin-left: -45px;
         position:relative;
     }
+
     .footer-three-flex i{
         color:#ffff;
         margin-top: 9.5px;
     }
+
     .purple-star-{
         width:16px;
     }

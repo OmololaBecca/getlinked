@@ -957,6 +957,14 @@ right:-20px;
         padding-top:50px;
         color:#ffff;  
         padding-bottom:30px; 
+        position:relative;
+    }
+    .white-star-footer-container{
+        width:16px;
+        position: absolute;
+        right:60px;
+     bottom:120px;
+
     }
     .footer-flex{
         display:flex;
@@ -1007,10 +1015,14 @@ right:-20px;
         justify-content: center;
         gap:10px;
         margin-left: -45px;
+        position:relative;
     }
     .footer-three-flex i{
         color:#ffff;
         margin-top: 9.5px;
+    }
+    .purple-star-{
+        width:16px;
     }
     .right-reserved{
         text-align:center;

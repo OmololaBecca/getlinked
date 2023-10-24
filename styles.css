@@ -1051,3 +1051,25 @@ right:-20px;
   .move-footer-flex{
     margin-left:-18px;
   }
+
+  .register-nav-div{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:200px;
+  }
+.register-logo{
+    width:150px;
+}
+.register-nav{
+    display:flex;
+    gap:20px;
+}
+.different-colored-letter{
+    background: linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+
+}
+.register-nav-button{
+    border: 1px solid  linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
+}

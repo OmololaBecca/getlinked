@@ -1056,8 +1056,12 @@ right:-20px;
     margin-top: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap:200px;
+    justify-content: center; 
+    gap:100px;
+
+  }
+  .register-logo-div{
+    margin-left:70px;
   }
 .register-logo{
     width:150px;
@@ -1065,6 +1069,7 @@ right:-20px;
 .register-nav{
     display:flex;
     gap:24px;
+    margin-left:250px;
 }
 .different-colored-letter{
     background: -webkit-linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
@@ -1076,7 +1081,38 @@ right:-20px;
     border:1px solid;
     border-image:linear-gradient(90deg, #903AFF 3.08%, #FF26B9 3.85%) 1;
     background: transparent;
-    color:#ffff; 
+    color:#ffff ; 
     width:120px;
     height:35px;
+}
+.register-button-div{
+    margin-right:100px;
+}
+.register-flex{
+    display:flex;
+    margin-top:50px;
+   
+}
+.register-asset-div{
+    position:relative;
+}
+.register-asset{
+    width:700px;
+}.input-container{
+    margin-right:50px;
+    margin-top: 40px;
+} 
+.register-input-div{
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding:30px;
+
+}
+.input-flex-div{
+    display:flex;
+    gap:20px;
 }

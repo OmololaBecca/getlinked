@@ -1073,6 +1073,8 @@ background: linear-gradient(315deg, rgba(79,62,121,1) 10%, rgba(21,14,40,1) 81%)
     display:flex;
     gap:24px;
     margin-left:250px;
+    color: #ffff;
+    
 }
 .different-colored-letter{
     background: -webkit-linear-gradient(90deg, #903AFF 3.08%, #FF26B9 93.85%);
@@ -1101,7 +1103,20 @@ background: linear-gradient(315deg, rgba(79,62,121,1) 10%, rgba(21,14,40,1) 81%)
 }
 .register-asset{
     width:700px;
-}.input-container{
+}
+.register-first-star{
+position: absolute;
+width:16px;
+left:140px;
+top:40px;
+}
+.register-second-star{
+    position: absolute;
+   bottom:180px;
+   right:80px;
+   width:16px;
+    }
+.input-container{
     margin-right:50px;
     margin-top: 40px;
 } 
@@ -1153,7 +1168,7 @@ color:#FF26B9;
     .register-bold-button{
         width:500px;
         height:40px;
-        background-image:linear-gradient(to right , #FF26B9,#903AFF);
+        background:linear-gradient(to right , #FF26B9,#903AFF);
     }
 
 

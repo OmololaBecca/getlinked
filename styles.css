@@ -1116,6 +1116,12 @@ top:40px;
    right:80px;
    width:16px;
     }
+    .register-third-star{
+        position: absolute;
+      bottom:40px;
+      right:540px;
+      width:16px;
+        }
 .input-container{
     margin-right:50px;
     margin-top: 40px;

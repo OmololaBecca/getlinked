@@ -1051,9 +1051,12 @@ right:-20px;
   .move-footer-flex{
     margin-left:-18px;
   }
-
+.register-body{
+    background: rgb(79,62,121);
+background: linear-gradient(315deg, rgba(79,62,121,1) 10%, rgba(21,14,40,1) 81%);
+}
   .register-nav-div{
-    margin-top: 100px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -1150,6 +1153,7 @@ color:#FF26B9;
     .register-bold-button{
         width:500px;
         height:40px;
+        background-image:linear-gradient(to right , #FF26B9,#903AFF);
     }
 
 

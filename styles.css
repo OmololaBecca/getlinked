@@ -1197,7 +1197,7 @@ color:#FF26B9;
 .input-second-star{
    left:500px;
     position:absolute;
-    bottom:-30px;
+    bottom:-30px; 
     width:15px;
 
 }
@@ -1206,17 +1206,38 @@ color:#FF26B9;
 } 
 
  .confirmation-details{
-    position: relative;
+    width:500px;
+    height:500px;
+    /* position: relative; */
     border: 1px solid red;
-
     display:block;
     margin:auto;
 } 
-.confirm-first-asset{
-    position: absolute;
-    left:500px;
+.confirmation-assets-flex{
+margin-top:25px;
+position: relative;
 }
+ .confirm-first-asset{
+    display:block;
+    margin:auto;
+    margin-left: 50px;
+
+} 
 .confirm-second-asset{
-    position: absolute;
-    left:570px;
+    position: absolute;   
+    top:10px;
+    left:160px;
 }
+
+.details-confirm{
+    color:#ffff;
+    text-align: center;
+    margin-top: 15px;
+}
+.confirm-pee1{
+    font-size: 22px;
+}
+.confirm-pee2{
+    font-size: 12px;
+}
+

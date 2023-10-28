@@ -1207,9 +1207,9 @@ color:#FF26B9;
 
  .confirmation-details{
     width:500px;
-    height:500px;
-    /* position: relative; */
-    border: 1px solid red;
+    height:550px;
+ position: relative; 
+    border: 1px solid #903AFF;
     display:block;
     margin:auto;
 } 
@@ -1240,4 +1240,28 @@ position: relative;
 .confirm-pee2{
     font-size: 12px;
 }
-
+.details-button{
+    width:400px;
+    height:40px;
+    background:linear-gradient(to right , #FF26B9,#903AFF);
+    color:#ffff;
+    border:none;
+}
+.confirm-first-star{
+    width:18px;
+    position:absolute;
+    left:490px;
+    top:-50px;
+}
+.confirm-second-star{
+    position:absolute;
+    left:70px;
+    bottom: 42px;
+    width:18px;
+}
+.confirm-third-star{
+    width:14px;
+    position:absolute;
+    bottom:10px;
+    
+}

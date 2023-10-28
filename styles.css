@@ -1125,6 +1125,7 @@ top:40px;
 .input-container{
     margin-right:50px;
     margin-top: 40px;
+    position:relative
 } 
 .register-input-div{
     background: rgba(184, 173, 173, 0.1);
@@ -1186,5 +1187,16 @@ color:#FF26B9;
         color:#ffff;
         border:none;
     }
+.input-first-star{
+    width:18px;
+    position:absolute;
+    z-index: 99999;
+    left:100px;
+}
+.input-second-star{
+   left:500px;
+    position:absolute;
+    bottom:-30px;
+    width:15px;
 
-
+}

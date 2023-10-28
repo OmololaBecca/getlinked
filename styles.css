@@ -1134,7 +1134,7 @@ top:40px;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(175, 160, 160, 0.1);
-    padding: 20px 30px;
+    padding: 25px 30px;
 
 }
 .register-input-div h2{
@@ -1191,7 +1191,8 @@ color:#FF26B9;
     width:18px;
     position:absolute;
     z-index: 99999;
-    left:100px;
+    left:400px;
+    top:20px;
 }
 .input-second-star{
    left:500px;
@@ -1199,4 +1200,23 @@ color:#FF26B9;
     bottom:-30px;
     width:15px;
 
+}
+.confirmation-container{
+    
+} 
+
+ .confirmation-details{
+    position: relative;
+    border: 1px solid red;
+
+    display:block;
+    margin:auto;
+} 
+.confirm-first-asset{
+    position: absolute;
+    left:500px;
+}
+.confirm-second-asset{
+    position: absolute;
+    left:570px;
 }

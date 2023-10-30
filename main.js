@@ -1,14 +1,27 @@
 const registerNowButton=document.getElementById("registerNowButton")
-const inputField = document.querySelectorAll("#inputfield")
-console.log(inputField)
-console.log("lola")
+const inputFieldOne= document.getElementById("input-one")
+const inputFieldTwo= document.getElementById("input-two")
+const inputFieldThree= document.getElementById("input-three")
+const inputFieldFour= document.getElementById("input-four")
+
+
 
 registerNowButton.addEventListener('click', ()=>{
- console.log("yes")
+   if(inputFieldOne.value  == ""){
+    console.log('yes')
+  }else if (inputFieldTwo.value == ""){
+    console.log('yes')
+  }else if (inputFieldThree.value ==""){
+    console.log('yes')
+  }else if (inputFieldFour.value ==""){
+    console.log('yes')
+  }else{
+    console.log('woo')
+    window.open("confirmationpage.html")
+  }
+  
+  
 })
-
-
-
 
 
 

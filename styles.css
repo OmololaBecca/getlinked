@@ -1058,7 +1058,7 @@ background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
   .register-nav-div{
     margin-top: 50px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center; 
     gap:100px;
 
@@ -1086,7 +1086,7 @@ background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
     border:1px solid;
     border-image:linear-gradient(90deg, #903AFF 3.08%, #FF26B9 3.85%) 1;
     background: transparent;
-    color:#ffff ; 
+     color:#ffff ; 
     width:120px;
     height:35px;
 }
@@ -1123,7 +1123,7 @@ top:40px;
       width:16px;
         }
 .input-container{
-    margin-right:50px;
+    margin-right:100px;
     margin-top: 40px;
     position:relative
 } 
@@ -1201,8 +1201,13 @@ color:#FF26B9;
     width:15px;
 
 }
+
+.confirmation-body{
+    background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
+} 
+
 .confirmation-container{
-    
+    margin-top: 40px;
 } 
 
  .confirmation-details{

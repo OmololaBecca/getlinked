@@ -42,15 +42,15 @@
                 <img src="./Assets/Part of move.png"> 
                 <h2>CREATE YOUR ACCOUNT</h2>
                 <div class="input-flex-div">
-
+                       <form>
                     <div>
                         <label>
                             <p>Team's Name</p>
-                            <input type="text" placeholder="Enter the name of your group" class="input">
+                            <input type="text" placeholder="Enter the name of your group" class="input" id="inputfield" required>
                         </label> 
                         <label>
                             <p>Email</p>
-                            <input type="text" placeholder="Enter your Email Address" class="input">
+                            <input type="text" placeholder="Enter your Email Address" class="input" id="inputfield"  required>
                         </label>
 
                         <label>
@@ -62,11 +62,11 @@
                         <div>
                             <label>
                                 <p>Phone Number</p>
-                                <input type="text" placeholder="Enter your phone number" class="input">
+                                <input type="text" placeholder="Enter your phone number" class="input" id="inputfield"  required>
                             </label> 
                             <label>
                                 <p>Project Topic</p>
-                                <input type="text" placeholder="What is your group project topic" class="input">
+                                <input type="text" placeholder="What is your group project topic" class="input" id="inputfield"  required>
                             </label> 
                             <label>
                                 <p>Group Size</p>
@@ -74,14 +74,16 @@
                                     <option>Select </option>
                                 </select>
                             </label> 
+                       
                         </div> 
                     </div>
                     <div class="review-register-details"> 
                         <p class="review-pee1">Please review your registration details before submitting</p>
                         <p  class="review-pee2"><input type="checkbox">I agree with the event terms and condition and privacy policy</p>
    
-                        <button class="register-bold-button" id="registerNowButton">Register Now</button>
+                        <button type="submit" class="register-bold-button" id="registerNowButton">Register Now</button>
                        </div>
+                    </form>
                        <img src="./Assets/star (1).png" class="input-second-star">
                </div>
                </div>
@@ -89,4 +91,5 @@
         
     
 </body>
+<script src="main.js"></script>
 </html>

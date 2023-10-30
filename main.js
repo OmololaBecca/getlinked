@@ -1,3 +1,17 @@
+const registerNowButton=document.getElementById("registerNowButton")
+const inputField = document.querySelectorAll("#inputfield")
+console.log(inputField)
+console.log("lola")
+
+registerNowButton.addEventListener('click', ()=>{
+ console.log("yes")
+})
+
+
+
+
+
+
 const textCollapseDiv = document.querySelector(".text-collapse-div")
  console.log(textCollapseDiv.children)
 

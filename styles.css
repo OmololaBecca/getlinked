@@ -1058,7 +1058,7 @@ background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
   .register-nav-div{
     margin-top: 50px;
     display: flex;
-    align-items: center; 
+    align-items: center;  
     justify-content: center; 
     gap:100px;
 
@@ -1181,7 +1181,7 @@ color:#FF26B9;
     color:#ffff;
     }
     .register-bold-button{
-        width:500px;
+        width:450px;
         height:40px;
         background:linear-gradient(to right , #FF26B9,#903AFF);
         color:#ffff;

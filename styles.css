@@ -39,9 +39,11 @@ body{
     margin-top: 10px;
 }
 
-.first-component-nav > nav{
+.first-component-nav > a{
     color:#ffff;
-    font-size: 20px;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
 }
 .first-component-button {
     width: 130px;
@@ -1076,6 +1078,10 @@ background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
     gap:24px;
     margin-left:250px;
     color: #ffff;
+}
+.register-nav a{
+    text-decoration: none;
+    color:#fff;
     
 }
 .different-colored-letter{
@@ -1273,11 +1279,14 @@ position: relative;
     
 }
 /* contact page css styling */
-.contact-body-page{
+.contact-page-body{
     background-color: #150E28;
 }
 .contact-page-container{
     margin-top: 40px;
+}
+.contact-flex-nav{
+    display:flex;
 }
 .contact-page-logo{
     width:150px;
@@ -1293,9 +1302,11 @@ position: relative;
     margin-top: 10px;
 }
 
-.contact-page-nav > nav{
+.contact-page-nav > a{
     color:#ffff;
     font-size: 20px;
+    text-decoration: none;
+    font-size: 16px;
 }
 .contact-page-button {
     width: 130px;
@@ -1303,6 +1314,9 @@ position: relative;
     border-radius: 4px;
     border:none;
     color:#ffff;
-    margin-left: 50px;
+    margin-left: 70px;
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
+}
+.contact-page-flex{
+    display:flex;
 }

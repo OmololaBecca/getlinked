@@ -1051,6 +1051,8 @@ right:-20px;
   .move-footer-flex{
     margin-left:-18px;
   }
+
+  /* register page css styling */
 .register-body{
     background: rgb(79,62,121);
 background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
@@ -1201,7 +1203,7 @@ color:#FF26B9;
     width:15px;
 
 }
-
+/* confirmation page css styling */
 .confirmation-body{
     background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
 } 
@@ -1269,4 +1271,8 @@ position: relative;
     position:absolute;
     bottom:10px;
     
+}
+/* contact page css styling */
+.contact-body-page{
+    background-color: #150E28;
 }

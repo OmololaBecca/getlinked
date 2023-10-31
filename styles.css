@@ -1319,4 +1319,38 @@ position: relative;
 }
 .contact-page-flex{
     display:flex;
+    margin-top: 40px;
+    color:#ffff;
+    gap:50px;
+    margin-left: 200px;
 }
+ .contact-flex-one{
+    position:relative;
+    margin-top: 60px;
+    
+ }
+ .contact-purple{
+    color:#D434FE;
+ }
+ .star-one-contact{
+    width:15px;
+    position: absolute;
+    left:20px;
+    top:-50px;
+ }
+ .contact-page-purple-flare{
+width:50px;
+ }
+ .contact-flex-two{
+    background: rgba(184, 173, 173, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(175, 160, 160, 0.1);
+ }
+ .contact-icon-flex{
+    display:flex;
+justify-content: center;
+gap:10px;
+ }

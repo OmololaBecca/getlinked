@@ -1395,3 +1395,8 @@ border-radius: 5px;
  color:#ffff;
  border:none;
 }
+.contact-two-div-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

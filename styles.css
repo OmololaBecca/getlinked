@@ -1379,6 +1379,9 @@ width:50px;
 background: transparent;
 border-radius: 5px;
  }
+ .contact-input ::-ms-value{
+   color:red;
+ }
  .longer-message{
     height:100px;
  }

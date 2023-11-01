@@ -41,7 +41,7 @@ console.log(e.target)
 
 
 // countdown logic
-var countDownDate = new Date("December 05, 2023 00:00:00").getTime();
+var countDownDate = new Date("December 26, 2023 00:00:00").getTime();
 console.log(countDownDate)
 
 var x = setInterval(function() { 

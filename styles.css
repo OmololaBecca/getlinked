@@ -1327,6 +1327,7 @@ position: relative;
  .contact-flex-one{
     position:relative;
     margin-top: 60px;
+    font-size:15px;
     
  }
  .contact-purple{
@@ -1341,16 +1342,56 @@ position: relative;
  .contact-page-purple-flare{
 width:50px;
  }
+ .contact-h3{
+    font-size:20px;
+ }
+ .contact-icon-flex{
+    display:flex;
+     gap:10px;
+ }
  .contact-flex-two{
     background: rgba(184, 173, 173, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(175, 160, 160, 0.1);
+    margin-left: 90px;
+    width:400px;
+    height:400px;
+    margin-top: 70px;
+    text-align: left;
+    position: relative;
+    padding:20px 60px;
+ } 
+ .flex-two-first-star{
+    width:15px;
+    position: absolute;
+    top:-70px;
+    left:430px;
  }
- .contact-icon-flex{
-    display:flex;
-justify-content: center;
-gap:10px;
+ .contact-input{
+    width:350px;
+    height:30px;
+    margin-bottom: 30px;
+    border: 1px solid #ffff;
+background: transparent;
+border-radius: 5px;
  }
+ .longer-message{
+    height:100px;
+ }
+ .flex-two-second-star{
+    position: absolute;
+    width:16px;
+    bottom:90px;
+    left:-9px;
+ }
+ 
+.contact-flex-two-button{
+ width:80px;
+ height:40px;
+ background:linear-gradient(to right , #FF26B9,#903AFF);
+ color:#ffff;
+ border:none;
+}

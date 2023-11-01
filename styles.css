@@ -1139,8 +1139,8 @@ top:40px;
     background: rgba(184, 173, 173, 0.1);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgba(175, 160, 160, 0.1);
     padding: 25px 30px;
 
@@ -1351,19 +1351,19 @@ width:50px;
      gap:10px;
  }
  .contact-flex-two{
-    background: rgba(184, 173, 173, 0.1);
+    background: rgba(184, 173, 173, 0.06);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
     border: 1px solid rgba(175, 160, 160, 0.1);
     margin-left: 90px;
-    width:400px;
-    height:400px;
+    width:380px;
+    height:380px;
     margin-top: 50px;
     text-align: left;
     position: relative;
-    padding:20px 60px;
+    padding:20px 40px;
  } 
  .flex-two-first-star{
     width:15px;

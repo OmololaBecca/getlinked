@@ -1061,7 +1061,7 @@ background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
 }
   .register-nav-div{
     margin-top: 50px;
-    display: flex;
+    display: flex;            
     align-items: center;  
     justify-content: center; 
     gap:100px;
@@ -1211,7 +1211,7 @@ color:#FF26B9;
 }
 /* confirmation page css styling */
 .confirmation-body{
-    background: linear-gradient(315deg, rgb(23, 14, 43) 10%, rgba(21,14,40,1) 81%);
+    background: #150E28;
 } 
 
 .confirmation-container{
@@ -1329,6 +1329,7 @@ position: relative;
     position:relative;
     margin-top: 60px;
     font-size:15px;
+    z-index:999999;
     
  }
  .contact-purple{
@@ -1341,7 +1342,10 @@ position: relative;
     top:-50px;
  }
  .contact-page-purple-flare{
-width:50px;
+width:300px;
+position: absolute;
+right:40px;
+border-radius: 100px;
  }
  .contact-h3{
     font-size:20px;
@@ -1379,9 +1383,7 @@ width:50px;
 background: transparent;
 border-radius: 5px;
  }
- .contact-input ::-ms-value{
-   color:red;
- }
+ 
  .longer-message{
     height:100px;
  }

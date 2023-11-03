@@ -14,7 +14,6 @@ body{
     overflow-x: hidden;
 }
 .hero-page{
-    padding-top:50px;
     padding-bottom: 20px;
     background-color: #150E28;
     font-family: "Montserrat";
@@ -22,6 +21,18 @@ body{
 .first-component-flex{
     display:flex;
     gap:30px;
+    position:fixed;
+    background: rgba(4, 4, 4, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height:60px;
+    width:100vw;
+    z-index: 99999;
+    top:0;
+    padding-top:20px ;
+  
     
 }
 
@@ -54,6 +65,9 @@ body{
     margin-left: 50px;
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
 }
+@media(max-width:600px) {
+    
+}
 hr{
     border: solid 0.2px rgb(97, 97, 97);
     margin-top:15px;
@@ -67,7 +81,7 @@ hr{
     align-items: center;
     justify-content: center;
     gap:300px;
-    margin-top: 15px;
+    margin-top: 90px;
 }
 .first-star{
     margin-right:150px;

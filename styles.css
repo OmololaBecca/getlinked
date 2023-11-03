@@ -64,6 +64,20 @@ body{
     margin-left: 50px;
     background-image:linear-gradient(to right , #FF26B9,#903AFF);
 }
+
+/* mobile nav style */
+.mobile-nav-component{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.mobile-get-linked-logo{
+    width:100px;
+}
+.mobile-bar{
+    color:#fff;
+}
 @media(max-width:600px) {
     
 }

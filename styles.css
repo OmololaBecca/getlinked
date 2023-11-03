@@ -70,6 +70,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    /* display:hidden; */
 
 }
 .mobile-get-linked-logo{
@@ -79,8 +80,14 @@ body{
     color:#fff;
 }
 @media(max-width:600px) {
-    
+    .first-component-flex{
+        display:none;
+    }
+    .mobile-nav-component{
+        display:block;
+    }
 }
+
 .first-hr{
     margin-top: 40px;
 }

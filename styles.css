@@ -17,6 +17,7 @@ body{
     padding-bottom: 20px;
     background-color: #150E28;
     font-family: "Montserrat";
+    
 }
 .first-component-flex{
     display:flex;
@@ -28,19 +29,17 @@ body{
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(0, 0, 0, 0.1);
     height:60px;
-    width:100vw;
+    width:100%;
     z-index: 99999;
     top:0;
     padding-top:20px ;
-  
-    
+    padding-left: 100px;
 }
 
 .get-linked-logo{
     width:150px;
     object-fit: contain;
     /* margin-right: 200px; */
-    margin-left: 150px;
 
 }
 .first-component-nav{
@@ -67,6 +66,9 @@ body{
 }
 @media(max-width:600px) {
     
+}
+.first-hr{
+    margin-top: 40px;
 }
 hr{
     border: solid 0.2px rgb(97, 97, 97);

@@ -154,7 +154,7 @@ hr{
         position: absolute;
         width:14px;
         top: 200px;
-        left:80px;
+        left:130px;
     }
     .innovation-tag{
         font-size: 18px;
@@ -250,9 +250,8 @@ to{
 }
    .second-component-flex p{
        font-size: 14px;
-       width:40%;
-       text-align: center ;
-    
+       width:70%;
+       text-align: left !important; 
    }
    .sc-breaker{
     display:none;
@@ -265,10 +264,23 @@ to{
    }
 
 .first-grey-star{
-    width:20px;
-    position:absolute;
-    bottom:210px;
-    right:90px;
+    width:10px;
+    bottom:220px;
+}
+.second-grey-star{
+    width:12px;
+    top:-470px;
+    left:370px;
+}
+
+.multiple-star-image{
+   position:absolute;
+   top:20px;
+   left:-39px;
+   width:600px;
+}
+.vr-man{
+   width:600px; 
 }
 }
 .countdown-div{

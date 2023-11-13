@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="./Assets/getlinked.png"></link>
     <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 </head>
 <body>
     <main>
@@ -16,6 +16,11 @@
     <div class="hero-page">
          <div class="first-component-flex">
             <img class="get-linked-logo" src="./Assets/getlinked.png"/>
+
+               <div class="mobile-bar-div">
+                <i class="fa fa-bars mobile-bar" id="mobile-bar"></i>
+               </div>
+            
 
             <div class="first-component-nav">
              <a href="#" id="timelines">Timelines</a>
@@ -27,19 +32,18 @@
              <a href="register.html"> <button class="first-component-button">Register</button></a>
         </div> 
 <!-- nav component-mobile -->
-<div class="mobile-nav-component">
-    <img class="mobile-get-linked-logo" src="./Assets/getlinked.png"/>
 
-    <i class="fa fa-bars mobile-bar" id="mobile-bar"></i>
 
-    <!-- <div class="first-component-nav">
+    <div class="mobile-nav hidden" id="mobile-nav">
+        
      <a href="#" id="timelines">Timelines</a>
      <a href="#" id="timelines">Overviews</a>
      <a href="#" id="timelines">FAQs</a>
         <a href="contactpage.html" id="timelines">Contact</a>
-     </div> -->
+        
+      <a href="register.html"> <button class="first-component-button">Register</button></a> 
+     </div> 
 
-     <!-- <a href="register.html"> <button class="first-component-button">Register</button></a> -->
 </div>
         <hr class="first-hr"> 
         <div class="star-innovation-div">
@@ -67,7 +71,7 @@
             <div class="vr-man-div">
                 <img src="./Assets/star.png " class="second-grey-star"/>
                 <img class="vr-man" src="./Assets/man-wearing-smart-glasses-touching-virtual-screen 1.png">
-                <img  class="multiple-star-image" src="./Assets/Image 1 (1).png"/>
+                <!-- <img  class="multiple-star-image" src="./Assets/Image 1 (1).png"/> -->
             </div>
            
     </div>
@@ -447,5 +451,5 @@ that's what we're all about!</p>
     </main>
     
 </body>
- 
+<script src="main.js"></script>
 </html> 

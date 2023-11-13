@@ -13,10 +13,7 @@ body{
 
 .parent-container{
     background: #150E28;
-    overflow: hidden;
-   
-    
-    
+    overflow: hidden;  
 }
 .hero-page{
     padding-bottom: 20px;
@@ -73,7 +70,6 @@ body{
 
 .mobile-bar-div{
     display:none;
-    z-index: 99999;
 
 }
 .mobile-bar-div :hover{
@@ -82,30 +78,32 @@ body{
 .mobile-bar{
     color:#fff !important;
 }
-.mobile-nav{
-    display:none;
-    background: #150E28;
-}
 
-/* @media(max-width:600px) {
-   
-    .get-linked-logo{
-        width:100px;
+
+ @media(max-width:600px) {
+    .mobile-bar-div{
+        display:block;
     }
-    .first-component-nav{
+    .first-component-flex {
+        justify-content: center;
+        align-items: center;
+    }
+   
+     .get-linked-logo{
+        width:100px;
+        margin-left: 0px;  
+    } 
+    .first-component-nav {
         display:none;
     }
     .first-component-button {
         display:none;
     }
-    .mobile-bar-div{
+    /* .mobile-bar-div{
         display:block;
-    }
-    .first-component-flex{
-        justify-content: center;
-        align-items: center;
-    }
-} */
+    } */
+   
+}
 
 .first-hr{
     margin-top: 40px;
@@ -140,6 +138,16 @@ hr{
     color:#ffff;
     margin-right: -50px;
    
+}
+@media(max-width:600px){
+    .star-innovation-div{
+        display:block;
+        
+    }
+    .innovation-tag{
+        font-size: 20px;
+        text-align: center; 
+    }
 }
 
 .curved-stroke{
